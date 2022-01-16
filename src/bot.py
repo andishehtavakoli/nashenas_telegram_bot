@@ -3,6 +3,7 @@ import os
 from loguru import logger
 
 
+
 class Bot:
 	def __init__(self):
 		self.bot = telebot.TeleBot(os.environ['nashenas_bot_Token'])
@@ -22,10 +23,10 @@ class Bot:
 		logger.info('Start bot')
 		self.bot.infinity_polling()
 		logger.info('Done') 	
+if __name__ == '__main__':
 
-
-mybot=Bot()
-mybot.run()
+    mybot=Bot()
+    mybot.run()
 
 
 
