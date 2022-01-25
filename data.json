@@ -1,0 +1,18 @@
+{
+    "message_id": 66,
+    "from": {
+        "id": 86245557,
+        "is_bot": false,
+        "first_name": "Elena",
+        "username": "Elena26xx",
+        "language_code": "en"
+    },
+    "chat": {
+        "id": 86245557,
+        "first_name": "Elena",
+        "username": "Elena26xx",
+        "type": "private"
+    },
+    "date": 1643146905,
+    "text": "I am fine"
+}
